@@ -1,0 +1,70 @@
+body{
+ background-image: url(immagine.jpg);
+ margin: 0;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ position: relative;
+ height:1000px;
+}
+
+.centro{
+ width: 850px;
+ margin: auto;
+ background-color: rgb(0 0 0 / 50%);
+ padding: 5%;
+ margin-top: 50px;
+ border-radius: 5%;
+}
+
+header > img {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+header > h1{
+  color: #14df14;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  background-color: #14df14;
+  padding: 2%;
+}
+
+article > h2{
+  display: inline-block;
+  margin-bottom: auto;
+}
+
+article h2, p, span {
+  color: white;
+  margin: 0.5;
+}
+
+.freccia:before{
+  content: "\21A6";
+}
+
+ .barra{
+  background-color: orange;
+  width: 35%;
+  border-radius: 5%;
+  color: orange;
+}
+
+.barra2{
+  background-color: #14df14;
+  width: 55%;
+  border-radius: 5%;
+  color: #14df14;
+}
+
+.barra3{
+  background-color: red;
+  width: 15%;
+  border-radius: 5%;
+  color: red;
+} 
